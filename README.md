@@ -1,19 +1,22 @@
-# Perl
+# Implement syntax highlighting for Perl XS files in VS Code
 
 :camel: Open source contribution project :camel:
 
 ## Description
 
+Implement syntax highlighting for Perl XS files in VS Code as a VS Code extension
 
 ## Aim
 
+- Implement syntax highlighting for Perl XS files in VS Code
+- Learn typescript
 - Have fun :smiley:
 
 ## Source code repository
 
 The work should be done (by submitting pull requests)
 to the `main` branch
-of
+of ...
 
 ## List of contributors
 
