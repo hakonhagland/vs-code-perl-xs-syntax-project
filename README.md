@@ -2,10 +2,10 @@
 
 :camel: Open source contribution project :camel:
 
-XS is a Perl foreign function interface through which a program can call a C or C++ subroutine. XS or xsub is an abbreviation of "eXternal Subroutine", where external refers to programming languages external to Perl.
+In Perl, XS is an abbreviation of "eXternal Subroutine". These subroutines are commonly written in hybrid language of XS directives and C/C++ code.
+A file in XS format starts with a C language section which goes until the first `MODULE = ` directive. Other XS directives and XSUB definitions may follow this line. The "language" used in this part of the file is usually referred to as the [XS language](https://perldoc.perl.org/perlxs).
 
-Modules using xsubs commonly containes files written in the [XS language](https://perldoc.perl.org/perlxs).
-Such a file is called an .xs file. These files are commonly mostly C or C++ code and some specific XS declarations for each xsub. Currently there is no syntax highlighting extension for these files in VS Code.
+Currently there is no syntax highlighting extension for these files in VS Code.
 
 
 ## Description
