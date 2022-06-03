@@ -2,8 +2,7 @@
 
 :camel: Open source contribution project :camel:
 
-In Perl, XS is an abbreviation of "eXternal Subroutine". These subroutines are commonly written in hybrid language of XS directives and C/C++ code.
-A file in XS format starts with a C language section which goes until the first `MODULE = ` directive. Other XS directives and XSUB definitions may follow this line. The "language" used in this part of the file is usually referred to as the [XS language](https://perldoc.perl.org/perlxs).
+XS is an abbreviation of "eXternal Subroutine" written in hybrid language of [XS directives](https://perldoc.perl.org/perlxs) and C/C++ code. The file starts with a C/C++ language section which goes until the first `MODULE = ` directive. Then, other XS directives and XSUB definitions may follow this line. The "language" used in this part of the file is usually referred to as the [XS language](https://perldoc.perl.org/perlxs).
 
 Currently there is no syntax highlighting extension for these files in VS Code.
 
